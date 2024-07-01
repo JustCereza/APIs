@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generator</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="rp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bg_wrapper">
+            <h1>Generador de Usuarios</h1>
+        </div>
+        <div class="profile_card">
+            <div class="refresh">Nuevo Usuario</div>
+            <div class="profile_header"></div>
+            <div data-aos="flip-down" class="user_img">
+                <img src="./cargando.png" alt="Cargando">
+            </div>
+            <div class="title_info">Hola, mi nombre es</div>
+            <div class="title_details"></div>
+            <div class="info_icons">
+                <div class="icon user_ active" data-title="Hola, mi nombre es" data-value="Jairo Lara"></div>
+                <div class="icon email_" data-title="Mi email es" data-value="Lara@gmail.com"></div>
+                <div class="icon birthday_" data-title="Tengo" data-value="17 years old"></div>
+                <div class="icon location_" data-title="Mi address" data-value="JLARA"></div>
+                <div class="icon phone_" data-title="Mi numero de telefono es" data-value="8713861787"></div>
+                <div class="icon password_" data-title="Mi contraseña es" data-value="125412"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="person.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

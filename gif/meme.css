@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b7dae;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 40px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.button-primary, .button-secondary {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-primary {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.button-secondary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.divider {
+    width: 100%;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid #fff;
+}
+
+.image-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gif-image {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 70vh; /* Altura máxima relativa al viewport */
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+
+
